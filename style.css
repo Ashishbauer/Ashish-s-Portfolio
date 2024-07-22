@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #17153B;
+    color: white;
+}
+
+/* hero-section */
+#hero{
+    height: 782px;
+}
+.name{
+    font-family: "Long Cang", cursive;
+    font-weight: 400;
+    font-size: 10rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 232px;
+}
+.pro{
+    text-decoration: underline;
+}
+.programmer{
+    margin: 0;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+/* about-me */
+#about{
+    height: 630px;
+}
+.img-about{
+    border-radius: 50%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hello-about{
+    font-size: 3rem;
+    text-align: center;
+}
+.para-about{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+/* Project-section */
+#project{
+    height: 630px;
+    padding-top: 30px;
+}
+.project-head{
+    margin: 0;
+    font-size: 3.25rem;
+    text-align: center;
+}
+.resume-img{
+    height: 200px;
+    width: 275px;
+    float: left;
+    object-fit: cover;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.resume-head{
+    font-size: 2rem;
+}
+.resume-para{
+    font-size: 1.5rem;
+    width: 68%;
+}
+.portfolio-img{
+    height: 200px;
+    width: 275px;
+    float: left;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.portfolio-head{
+    font-size: 2rem;
+}
+.portfolio-para{
+    font-size: 1.5rem;
+    width: 70%;
+}
+.html-resume{
+    display: block;
+    margin-left: 24%;
+    margin-right: 5%;
+}
+.html-portfolio{
+    clear: both;
+    margin-left: 24%;
+    margin-right: 6%;
+}
+
+/* Contact-me */
+#contact{
+    padding-top: 125px;
+    height: 500px;
+}
+.contact-head{
+    font-size: 3.5rem;
+    margin: 0;
+    text-align: center;
+}
+.contact-para{
+    font-size: 2rem;
+    text-align: center;
+}
+.contact-button{
+    padding: 10px;
+    font-size: 1.75rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 46%;
+    border: none;
+}
+
+/* footer */
+.links > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.copy-right{
+    text-align: center;
+}
+
+@media (max-width: 1150px){
+    #project > .html-resume > a > img{
+        display: block;
+        width: 100%;
+        object-fit:cover;
+    }
+
+    #project > div.html-resume{
+        margin-left: 307px;
+        margin-right: 307px;
+    }
+
+    #project > div.html-resume > p.resume-para{
+        width: 100%;
+    }
+
+    #project > .html-portfolio > a > img{
+        display: block;
+        width: 100%;
+        object-fit:cover;
+        margin-bottom: 30px;
+    }
+
+    #project > div.html-portfolio{
+        margin-left: 307px;
+        margin-right: 307px;
+    }
+
+    #project > div.html-portfolio > p.portfolio-para{
+        width: 105%;
+    }
+
+    #contact{
+        margin-top: 400px;
+    }
+
+}
